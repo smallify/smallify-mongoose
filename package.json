@@ -1,6 +1,6 @@
 {
   "name": "smallify-mongoose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "typings": "index.d.ts",
   "repository": "https://github.com/smallify/smallify-mongoose.git",
@@ -31,9 +31,7 @@
     "standard": "^16.0.3",
     "typescript": "^4.1.3"
   },
-  "pre-commit": [
-    "lint"
-  ],
+  "pre-commit": ["lint"],
   "dependencies": {
     "mongoose": "^5.11.18"
   }
